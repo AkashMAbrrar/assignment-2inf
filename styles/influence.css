@@ -3,11 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+/* thes are for google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
 body {
   font-family: "Cabin", sans-serif;
-  background-color: #f0f3f4;
+  background-color: #edeee9;
 }
+/* ------------styles adding station for top banner setion ----------*/
 .head-top {
   padding-left: 50px;
   font-size: 20px;
@@ -62,6 +64,7 @@ nav {
   cursor: pointer;
   box-shadow: 0 7px 0 rgb(53, 53, 211);
 }
+/* styles for button  top of the first one */
 .button-top:active {
   top: 5px;
   box-shadow: 0 2px 0 rgb(53, 53, 211);
@@ -79,4 +82,36 @@ nav {
 .banner-left p {
   line-height: 1.5;
   margin: 20px 0;
+}
+.header-mid {
+  text-align: center;
+  margin-top: 70px;
+}
+/*------------------- ----------------------------
+there is given styles for main section and products
+----------------------------------------------- */
+.main-products {
+  width: 90%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-left: 100px;
+  padding-top: 50px;
+  align-items: center;
+}
+.main-products img {
+  width: 70%;
+}
+.products {
+  width: 100%;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 10px;
+  padding-right: 10px;
+  padding-left: 30px;
+  padding-top: 30px;
+  margin: 10px;
+  background-color: #fff;
+}
+.products-ratting {
+  color: orange;
 }
