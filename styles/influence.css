@@ -6,7 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
 body {
   font-family: "Cabin", sans-serif;
-  background-color: whitesmoke;
+  background-color: #f0f3f4;
 }
 .head-top {
   padding-left: 50px;
@@ -15,7 +15,7 @@ body {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 30px;
+  padding: 0 10px;
 }
 nav {
   display: flex;
@@ -36,4 +36,47 @@ nav {
   font-weight: 700;
   margin: 5px;
   padding-right: 50px;
+}
+.banner-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+  padding-top: 30px;
+}
+.banner-left {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.button-top {
+  color: #ffff;
+  font-weight: 600;
+  text-transform: uppercase;
+  outline: 0;
+  padding: 10px 25px;
+  position: relative;
+  border-radius: 20px;
+  background-color: blue;
+  cursor: pointer;
+  box-shadow: 0 7px 0 rgb(53, 53, 211);
+}
+.button-top:active {
+  top: 5px;
+  box-shadow: 0 2px 0 rgb(53, 53, 211);
+}
+.heading-top {
+  font-size: 35px;
+  font-weight: 600;
+}
+.banner-right img {
+  width: 80%;
+  padding-left: 100px;
+  background-image: url(svgim/Circle\ design.svg);
+  background-repeat: no-repeat;
+}
+.banner-left p {
+  line-height: 1.5;
+  margin: 20px 0;
 }
