@@ -115,3 +115,9 @@ there is given styles for main section and products
 .products-ratting {
   color: orange;
 }
+/* optional content styles */
+.banner-right-2 img {
+  width: 30%;
+  padding-left: 100px;
+  padding-top: 20px;
+}
