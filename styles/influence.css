@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap");
+body {
+  font-family: "Cabin", sans-serif;
+  background-color: whitesmoke;
+}
+.head-top {
+  padding-left: 50px;
+  font-size: 20px;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 30px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+}
+.navigation {
+  display: flex;
+}
+.navigation li {
+  list-style: none;
+}
+.navigation li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 5px;
+  padding-right: 50px;
+}
